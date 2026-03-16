@@ -40,25 +40,25 @@ const Footer = () => {
               Stephanie Thatenhorst
             </h3>
             <p className="text-sm text-muted-foreground leading-relaxed">
-              Creating timeless interiors that<br />
-              celebrate the art of living well.
+              Criando interiores atemporais que<br />
+              celebram a arte de viver bem.
             </p>
           </div>
 
           <div>
             <p className="text-xs tracking-[0.2em] uppercase text-muted-foreground mb-4">
-              Studios
+              Estúdios
             </p>
             <div className="space-y-2 text-sm text-foreground">
-              <p>Maximilianstraße 12, Munich</p>
-              <p>Via Monte Napoleone 8, Milan</p>
-              <p>45 Albemarle St, London</p>
+              <p>Maximilianstraße 12, Munique</p>
+              <p>Via Monte Napoleone 8, Milão</p>
+              <p>45 Albemarle St, Londres</p>
             </div>
           </div>
 
           <div>
             <p className="text-xs tracking-[0.2em] uppercase text-muted-foreground mb-4">
-              Connect
+              Conecte-se
             </p>
             <div className="space-y-2">
               {["Instagram", "Pinterest", "LinkedIn"].map((social) => (
@@ -82,11 +82,11 @@ const Footer = () => {
 
         <div className="border-t border-border pt-6 flex flex-col md:flex-row items-center justify-between gap-4">
           <p className="text-xs text-muted-foreground">
-            © {currentYear} Stephanie Thatenhorst. All rights reserved.
+            © {currentYear} Stephanie Thatenhorst. Todos os direitos reservados.
           </p>
           <div className="flex gap-6">
             <a href="#" className="text-xs text-muted-foreground hover:text-foreground transition-colors">
-              Privacy
+              Privacidade
             </a>
             <a href="#" className="text-xs text-muted-foreground hover:text-foreground transition-colors">
               Imprint

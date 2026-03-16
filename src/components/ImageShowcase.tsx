@@ -60,8 +60,8 @@ const ImageShowcase = () => {
         className="max-w-3xl mx-auto text-center py-16"
       >
         <blockquote className="font-serif text-2xl md:text-4xl font-light italic leading-relaxed text-foreground">
-          "Design is not just what it looks like and feels like. Design is how it works — 
-          in the morning light, in the quiet evening, in every season of life."
+          "Design não é apenas como parece e como se sente. Design é como funciona —
+          na luz da manhã, na quietude da noite, em cada estação da vida."
         </blockquote>
         <p className="mt-8 text-xs tracking-[0.3em] uppercase text-muted-foreground">
           — Stephanie Thatenhorst

@@ -1,5 +1,4 @@
 import { motion } from "framer-motion";
-import heroImage from "@/assets/hero.jpg";
 
 const Hero = () => {
   return (
@@ -11,8 +10,8 @@ const Hero = () => {
         className="absolute inset-0"
       >
         <img
-          src={heroImage}
-          alt="Luxury interior showroom"
+          src="/imagens/sala-de-estar-hero.jpg"
+          alt="Sala de estar luxuosa"
           className="w-full h-full object-cover"
         />
         <div className="absolute inset-0 bg-foreground/10" />
@@ -25,9 +24,9 @@ const Hero = () => {
           transition={{ delay: 0.6, duration: 1, ease: [0.25, 0.1, 0.25, 1] }}
           className="font-serif text-4xl md:text-6xl lg:text-7xl font-light text-primary-foreground tracking-tight leading-tight"
         >
-          Designing Spaces
+          Criando Espaços
           <br />
-          <span className="italic font-light">That Inspire</span>
+          <span className="italic font-light">Que Inspiram</span>
         </motion.h1>
         <motion.p
           initial={{ opacity: 0 }}
@@ -35,7 +34,7 @@ const Hero = () => {
           transition={{ delay: 1.2, duration: 1 }}
           className="mt-6 text-xs md:text-sm tracking-[0.3em] uppercase text-primary-foreground/80"
         >
-          Munich · Milan · London
+          Munique · Milão · Londres
         </motion.p>
       </div>
     </section>

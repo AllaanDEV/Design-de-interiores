@@ -3,11 +3,11 @@ import { motion, AnimatePresence } from "framer-motion";
 import { Menu, X } from "lucide-react";
 
 const navLinks = [
-  { label: "Home", href: "#home" },
-  { label: "Projects", href: "#projects" },
-  { label: "About", href: "#about" },
-  { label: "Studio", href: "#studio" },
-  { label: "Contact", href: "#contact" },
+  { label: "Início", href: "#home" },
+  { label: "Projetos", href: "#projects" },
+  { label: "Sobre", href: "#about" },
+  { label: "Estúdio", href: "#studio" },
+  { label: "Contato", href: "#contact" },
 ];
 
 const Navbar = () => {
@@ -36,7 +36,7 @@ const Navbar = () => {
               Stephanie Thatenhorst
             </span>
             <span className="text-[9px] tracking-[0.35em] uppercase text-muted-foreground hidden md:block">
-              Interior Design
+              Design de Interiores
             </span>
           </div>
 

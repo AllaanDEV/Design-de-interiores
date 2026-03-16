@@ -13,22 +13,22 @@ const FeaturedProject = () => {
             transition={{ duration: 0.8 }}
           >
             <p className="text-xs tracking-[0.3em] uppercase text-muted-foreground mb-6">
-              Latest
+              Últimos
             </p>
             <h2 className="font-serif text-3xl md:text-5xl font-light leading-tight text-foreground mb-6">
-              Showing at<br />
+              Em exibição na<br />
               <span className="italic">Galerie Eisflut</span>
             </h2>
             <p className="text-sm leading-relaxed text-muted-foreground mb-8 max-w-md">
-              A curated collection exploring the intersection of functional design and sculptural art. 
-              Each piece reflects our philosophy of creating spaces that breathe — where every object 
-              tells a story and every corner invites discovery.
+              Uma coleção curada que explora a interseção entre design funcional e arte escultural.
+              Cada peça reflete nossa filosofia de criar espaços que respiram — onde cada objeto
+              conta uma história e cada canto convida à descoberta.
             </p>
             <a
               href="#"
               className="inline-block text-xs tracking-[0.2em] uppercase text-foreground border-b border-foreground pb-1 hover:text-muted-foreground hover:border-muted-foreground transition-colors duration-300"
             >
-              Discover More
+              Descubra Mais
             </a>
           </motion.div>
 

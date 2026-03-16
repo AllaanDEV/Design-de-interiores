@@ -4,9 +4,9 @@ import project2 from "@/assets/project2.jpg";
 import project3 from "@/assets/project3.jpg";
 
 const projects = [
-  { image: project1, title: "Residenz am Englischen Garten", location: "Munich", category: "Private Residence" },
-  { image: project2, title: "Casa Nostra Kitchen", location: "Milan", category: "Culinary Space" },
-  { image: project3, title: "The Velvet Room", location: "London", category: "Boutique Hotel" },
+  { image: project1, title: "Residenz am Englischen Garten", location: "Munique", category: "Residência Privada" },
+  { image: project2, title: "Casa Nostra Kitchen", location: "Milão", category: "Espaço Culinário" },
+  { image: project3, title: "The Velvet Room", location: "Londres", category: "Hotel Boutique" },
 ];
 
 const ProjectGallery = () => {
@@ -21,7 +21,7 @@ const ProjectGallery = () => {
         className="mb-6"
       >
         <p className="text-xs tracking-[0.3em] uppercase text-muted-foreground mb-8 text-center">
-          Selected Works
+          Obras Selecionadas
         </p>
       </motion.div>
 
