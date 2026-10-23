@@ -1,73 +1,65 @@
-# Welcome to your Lovable project
+# Interior Design
 
-## Project info
+<div align="center">
 
-**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
+  ![Lovable](https://img.shields.io/badge/Desenvolvido%20com-Lovable-FF6B6B?style=for-the-badge)
 
-## How can I edit this code?
+</div>
 
-There are several ways of editing your application.
+<p align="center">
+  Landing page de design de interiores desenvolvida como introdução à ferramenta Lovable, explorando a criação de interfaces modernas e visualmente atraentes.
+</p>
 
-**Use Lovable**
+## Sobre o projeto
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
+Este projeto consiste em uma landing page de design de interiores criada com o auxílio do Lovable, uma ferramenta de desenvolvimento que utiliza inteligência artificial para auxiliar na construção de aplicações web.
 
-Changes made via Lovable will be committed automatically to this repo.
+O objetivo foi conhecer a ferramenta e explorar suas possibilidades na criação de interfaces, com foco na apresentação visual, na organização dos elementos e na composição de uma página voltada ao segmento de interiores.
 
-**Use your preferred IDE**
+## Tecnologias utilizadas
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+<div align="left">
+  <img alt="React" title="React" src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB"/>
+  <img alt="TypeScript" title="TypeScript" src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white"/>
+  <img alt="Vite" title="Vite" src="https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white"/>
+  <img alt="Tailwind CSS" title="Tailwind CSS" src="https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white"/>
+  <img alt="shadcn/ui" title="shadcn/ui" src="https://img.shields.io/badge/shadcn%2Fui-000000?style=for-the-badge&logo=shadcnui&logoColor=white"/>
+</div>
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+- **React:** construção da interface por meio de componentes.
+- **TypeScript:** tipagem estática para o desenvolvimento.
+- **Vite:** ambiente de desenvolvimento e ferramenta de build.
+- **Tailwind CSS:** estilização da interface utilizando classes utilitárias.
+- **shadcn/ui:** componentes de interface reutilizáveis.
 
-Follow these steps:
+## Como executar o projeto localmente
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+É necessário ter o Node.js e o npm instalados.
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+1. Clone o repositório:
 
-# Step 3: Install the necessary dependencies.
-npm i
+   ```bash
+   git clone URL_DO_REPOSITORIO
+   ```
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+2. Entre na pasta do projeto:
 
-**Edit a file directly in GitHub**
+   ```bash
+   cd NOME_DO_PROJETO
+   ```
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+3. Instale as dependências:
 
-**Use GitHub Codespaces**
+   ```bash
+   npm install
+   ```
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+4. Inicie o servidor de desenvolvimento:
 
-## What technologies are used for this project?
+   ```bash
+   npm run dev
+   ```
 
-This project is built with:
+5. Acesse no navegador o endereço local informado pelo Vite no terminal.
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+---
